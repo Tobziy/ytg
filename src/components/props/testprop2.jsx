@@ -5,25 +5,28 @@ import nextjsImg from '../../assets/nextjs.svg';
 
 export const My_Stack = [
   {
-    image: reactImg,
+    img: reactImg,
     title: 'React',
     description:
       'JavaScript library for building user interfaces',
-  },
+  }, 
+
   {
-    image: tailwindImg,
+    img: tailwindImg,
     title: 'Tailwind',
     description:
       'Utility-first CSS framework',
   },
+
   {
-    image: htmlImg,
+    img: htmlImg,
     title: 'HTML',
     description:
       'HTML is the standard markup language for creating Web pages',
   },
+  
   {
-    image: nextjsImg,
+    img: nextjsImg,
     title: 'Next.js',
     description:
       'React framework that simplifies buiding dynamic and fast web applications',

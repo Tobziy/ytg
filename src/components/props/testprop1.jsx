@@ -7,26 +7,10 @@ export function DaddyProp() {
         <section id="core-concepts">
             <h2>My Stack</h2>
             <ul>
-              <My_Stack 
-              title = {My_Stack[0].title}
-              description = {My_Stack[0].description}
-              img = {My_Stack[0].img}
-              />
-              <My_Stack 
-              title = {My_Stack[1].title}
-              description = {My_Stack[1].description}
-              img = {My_Stack[1].img}
-              />
-              <My_Stack 
-              title = {My_Stack[2].title}
-              description = {My_Stack[2].description}
-              img = {My_Stack[2].img}
-              />
-              <My_Stack 
-              title = {My_Stack[3].title}
-              description = {My_Stack[3].description}
-              img = {My_Stack[3].img}
-              />
+              <My_Stack {...My_Stack[0]} />
+              <My_Stack {...My_Stack[1]} />
+              <My_Stack {...My_Stack[2]} />
+              <My_Stack {...My_Stack[3]} />
             </ul>
         </section>
         </main>

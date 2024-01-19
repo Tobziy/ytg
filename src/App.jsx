@@ -1,6 +1,6 @@
 import './index.css'
 import {HomeHeader} from './components/header/Header.jsx'
-import { DaddyProp } from './components/props/testprop1.jsx'
+import {DaddyProp} from './components/props/testprop1.jsx'
 function App() {
 
   return (

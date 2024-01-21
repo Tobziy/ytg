@@ -1,11 +1,11 @@
-import reactImg from '../../assets/react.svg';
+import reactImage from '../../assets/react.svg'
 import tailwindImg from '../../assets/tailwind.svg';
 import htmlImg from '../../assets/html.svg';
 import nextjsImg from '../../assets/nextjs.svg';
 
-export const My_Stack = [
+export const MyStack = [
   {
-    img: reactImg,
+    img: reactImage,
     title: 'React',
     description:
       'JavaScript library for building user interfaces',
@@ -24,7 +24,7 @@ export const My_Stack = [
     description:
       'HTML is the standard markup language for creating Web pages',
   },
-  
+
   {
     img: nextjsImg,
     title: 'Next.js',

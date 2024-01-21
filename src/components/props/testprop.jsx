@@ -1,9 +1,9 @@
-export function PropBody(props) {
+export default function PropBody({image, title, description}) {
     return (
         <li>
-            <img src={props.img} alt={props.title}/>
-            <h3>{props.title} </h3>
-            <p>{props.description}</p>
+            <img src={image} alt={title}/>
+            <h3>{title} </h3>
+            <p>{description}</p>
         </li>
     );
         }

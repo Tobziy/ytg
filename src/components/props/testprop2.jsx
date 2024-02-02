@@ -1,6 +1,7 @@
 import { ParentProp } from "./testprop"
 import { My_Stack } from "./cardData"
 import '../style/card.css'
+import TabButton from '../props/TabButton'
 
 export function ChildProp () {
     return (
@@ -13,6 +14,17 @@ export function ChildProp () {
                     <ParentProp {...My_Stack[2]}/>
                     <ParentProp {...My_Stack[3]}/>
                 </ul>
+            </section>
+            <section className="container">
+
+                <h2>Examples</h2>
+                <menu>
+                    <TabButton>Components</TabButton>
+                    <TabButton>JSX</TabButton>
+                    <TabButton>Props</TabButton>
+                    <TabButton>State</TabButton>
+                </menu>
+
             </section>
         </main>
         </div>

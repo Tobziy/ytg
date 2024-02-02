@@ -1,7 +1,7 @@
 #core-concepts {
     padding: 2rem;
     border-radius: 6px;
-    background-color: #140524;
+    background-color: #b7afbe;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }
   #core-concepts ul {
@@ -20,9 +20,10 @@
   }
   
   #core-concepts li img {
+    align-items: center;
     height: 4rem;
     width: 6rem;
-    object-fit: cover;
+    object-fit: contain;
   }
   
   #core-concepts li h3 {
@@ -30,5 +31,5 @@
   }
   
   #core-concepts li p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }

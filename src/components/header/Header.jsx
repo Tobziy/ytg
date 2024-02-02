@@ -1,12 +1,18 @@
+import {NavButton} from '../props/menuButton'
 export function Header() {
     return(
-        <div className="container">
-        <h1>
-        My name is Oluwatobi Tella-Ndanusa Anselm
-        </h1>
-        <h2>
-            I am a software engineer based in Lagos, Nigeria.
-        </h2>
+        <>
+        <div className=" pl-10 flex items-right text-black text-4xl font-mono">
+           <span className="text-[#eef2ff]">T</span>OBZIY.
         </div>
+        <div>
+            <section>
+          <menu>
+          <NavButton>Projects</NavButton>
+          </menu>
+          </section>
+        </div>
+
+        </>
     );
-}
+} 
